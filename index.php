@@ -6,6 +6,8 @@
   //require_once('functions/saveinfo.php');
   require_once('functions/showinfo.php');
 
+
+
   if (isset($_GET['q']) && is_int($_GET['q'])) {
     $display = showInfo($_GET['q']);
   } else {
@@ -42,7 +44,7 @@
         echo "<td class='city'>".$row['city']."</td>";
         echo "<td class='region'>".$row['region']."</td>";
         echo "<td class='country'>".$row['country']."</td>";
-        echo "<td class='when'>".date("M j, Y h:m:i A",strtotime($row['datetime']))."</td>";
+        echo "<td class='when'>".date("M j, Y g:i:s A T",strtotime($row['datetime']))."</td>";
         echo "</tr>";
       }
      ?>
