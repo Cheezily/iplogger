@@ -34,6 +34,7 @@
       <th>City</th>
       <th>Region</th>
       <th>Country</th>
+      <th>Organizaion</th>
       <th>When</th>
     </thead>
     <?php
@@ -44,6 +45,7 @@
         echo "<td class='city'>".$row['city']."</td>";
         echo "<td class='region'>".$row['region']."</td>";
         echo "<td class='country'>".$row['country']."</td>";
+        echo "<td class='organization'>".$row['organization']."</td>";
         echo "<td class='when'>".date("M j, Y g:i:s A T",strtotime($row['datetime']))."</td>";
         echo "</tr>";
       }
