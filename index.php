@@ -34,7 +34,7 @@
       <th>City</th>
       <th>Region</th>
       <th>Country</th>
-      <th>Organizaion</th>
+      <th>Organization</th>
       <th>When</th>
     </thead>
     <?php
