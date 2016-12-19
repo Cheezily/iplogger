@@ -35,7 +35,7 @@ th {
 }
 
 .id {
-  width: 55px;
+  width: 60px;
 }
 
 .ip {
@@ -44,6 +44,14 @@ th {
 
 .when {
   width: 220px;
+}
+
+.city, .region {
+  width: 270px;
+}
+
+.country {
+  width: 100px;
 }
 
 .row:nth-of-type(2n+1) {
