@@ -26,7 +26,7 @@ table {
 }
 
 th {
-  font-size: 18px;
+  font-size: 16px;
   padding: 3px;
 }
 
@@ -35,7 +35,7 @@ th {
 }
 
 .id {
-  width: 60px;
+  width: 100px;
 }
 
 .ip {
@@ -61,4 +61,24 @@ th {
 td {
   margin: 0;
   height: 20px;
+}
+
+.commentForm {
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.commentForm h3 {
+  margin-top: 0;
+}
+
+input[type='text'] {
+  width: 650px;
+}
+
+.comment {
+  max-width: 300px;
 }

@@ -1,12 +1,11 @@
 <?php
 
 $dbhost = 'localhost';
-$dbname = '';
+$dbname = 'iplogger';
 $dbusername = 'root';
 $dbpassword = '';
 
 $connection = "mysql:host=$dbhost;dbname=$dbname";
-
 
 function dd($thing) {
   echo "<br />";
