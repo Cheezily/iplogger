@@ -15,7 +15,7 @@ function getInfo() {
         }
 
         //uncomment to test a specific ip
-        $ip_address = '8.8.8.8';
+        //$ip_address = '8.8.8.8';
 
         $ip_get = 'http://ipinfo.io/' . $ip_address;
         if (isset($ip_address)) {
